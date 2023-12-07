@@ -4,6 +4,8 @@ from sklearn.model_selection import train_test_split
 from sklearn import datasets
 from LinearRegression import LinearRegression
 
+#LinearRegression
+
 def mean_squared_error(y_true, y_pred):
     return np.mean((y_true - y_pred)**2)
 
